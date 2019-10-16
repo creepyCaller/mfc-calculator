@@ -1,0 +1,205 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\calc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\calc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CALC_DIALOG DIALOGEX 0, 0, 207, 320
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "计算器"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DISPLAY,0,50,205,12,ES_RIGHT | ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY,WS_EX_TRANSPARENT | 
+                    WS_EX_RIGHT
+    PUSHBUTTON      "±",IDC_OPBN_POM,5,280,45,35
+    PUSHBUTTON      "0",IDC_NUMBN_0,55,280,45,35
+    PUSHBUTTON      "=",IDC_OPBN_CALC,155,280,45,35
+    PUSHBUTTON      ".",IDC_OPBN_POINT,105,280,45,35
+    PUSHBUTTON      "1",IDC_NUMBN_1,5,240,45,35
+    PUSHBUTTON      "4",IDC_NUMBN_4,5,200,45,35
+    PUSHBUTTON      "7",IDC_NUMBN_7,5,160,45,35
+    PUSHBUTTON      "[",IDC_OPBN_L_M_BEACKET,5,90,45,25
+    PUSHBUTTON      "2",IDC_NUMBN_2,55,240,45,35
+    PUSHBUTTON      "5",IDC_NUMBN_5,55,200,45,35
+    PUSHBUTTON      "8",IDC_NUMBN_8,55,160,45,35
+    PUSHBUTTON      "C",IDC_OPBN_C,105,120,45,35
+    PUSHBUTTON      "]",IDC_OPBN_R_M_BRACKET,55,90,45,25
+    PUSHBUTTON      "3",IDC_NUMBN_3,105,240,45,35
+    PUSHBUTTON      "6",IDC_NUMBN_6,105,200,45,35
+    PUSHBUTTON      "9",IDC_NUMBN_9,105,160,45,35
+    PUSHBUTTON      "(",IDC_OPBN_L_S_BRACKET,105,90,45,25
+    PUSHBUTTON      "+",IDC_OPBN_ADD,155,240,45,35
+    PUSHBUTTON      "-",IDC_OPBN_MINUS,155,200,45,35
+    PUSHBUTTON      "×",IDC_OPBN_MULTIPLY,155,160,45,35
+    PUSHBUTTON      "÷",IDC_OPBN_DIVIDE,155,120,45,35
+    PUSHBUTTON      ")",IDC_OPBN_R_S_BRACKET,155,90,45,25
+    PUSHBUTTON      "√",IDC_OPBN_ROOT,5,120,45,35
+    PUSHBUTTON      "1/x",IDC_OPBN_RECIPROCAL,55,120,45,35
+    EDITTEXT        IDC_EQUATION,0,0,205,45,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY,WS_EX_RIGHT
+    PUSHBUTTON      "←",IDC_OPBN_BACKSPACE,5,65,195,20
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "calc Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "calc\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2017\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "calc.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "calc 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CALC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 313
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\calc.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
